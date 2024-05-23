@@ -1,0 +1,130 @@
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.10.0                                                                        │
+  │ Browser:        Chrome 125 (headless)                                                          │
+  │ Node Version:   v19.2.0 (/Users/saiaparnamutyala/node_modules/node/bin/node)                   │
+  │ Specs:          1 found (TVOLearn_spec.cy.js)                                                  │
+  │ Searched:       cypress/e2e/**/*.cy.{js,jsx,ts,tsx}                                            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Remove .jsons folder /Users/saiaparnamutyala/Downloads/TVOcypress/cypress/reports/.jsons
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  TVOLearn_spec.cy.js                                                             (1 of 1)
+
+
+  TVOLearn Website Functionality
+Visiting Home Page: https://tvolearn.com
+Visiting Home Page: https://tvolearn.com
+Page Title: Learn at Home Resources for K to Grade 12 Students | TVO Learn
+Open Learning Resources (K-12) Menu
+Page Title: Grade 1 | TVO Learn
+Click on Grade-1 Mathematics card
+Page Title: Grade 1 - Mathematics | TVO Learn
+Testing Grade-1 Mathematics page
+    ✓ Home -> Grade-1 -> Grade-1 Math (16466ms)
+    1) Grade-1 Mathematics page: should display the Number tab and check its links
+    2) Grade-1 Mathematics page: should display the Algebra tab and check its links
+    3) Grade-1 Mathematics page: should display the Data tab and check its links
+    4) Grade-1 Mathematics page: should display the Spatial Sense tab and check its links
+    5) Grade-1 Mathematics page: should display the Financial Literacy tab and check its links
+
+
+  1 passing (1m)
+  5 failing
+
+  1) TVOLearn Website Functionality
+       Grade-1 Mathematics page: should display the Number tab and check its links:
+     AssertionError: Timed out retrying after 10000ms: Expected to find element: `#tab0 .tabb`, but never found it.
+      at Context.eval (webpack://cypress/./cypress/e2e/TVOLearn_spec.cy.js:129:9)
+
+  2) TVOLearn Website Functionality
+       Grade-1 Mathematics page: should display the Algebra tab and check its links:
+     AssertionError: Timed out retrying after 10000ms: Expected to find element: `#tab1 .tabb`, but never found it.
+      at Context.eval (webpack://cypress/./cypress/e2e/TVOLearn_spec.cy.js:129:9)
+
+  3) TVOLearn Website Functionality
+       Grade-1 Mathematics page: should display the Data tab and check its links:
+     AssertionError: Timed out retrying after 10000ms: Expected to find element: `#tab2 .tabb`, but never found it.
+      at Context.eval (webpack://cypress/./cypress/e2e/TVOLearn_spec.cy.js:129:9)
+
+  4) TVOLearn Website Functionality
+       Grade-1 Mathematics page: should display the Spatial Sense tab and check its links:
+     AssertionError: Timed out retrying after 10000ms: Expected to find element: `#tab3 .tabb`, but never found it.
+      at Context.eval (webpack://cypress/./cypress/e2e/TVOLearn_spec.cy.js:129:9)
+
+  5) TVOLearn Website Functionality
+       Grade-1 Mathematics page: should display the Financial Literacy tab and check its links:
+     AssertionError: Timed out retrying after 10000ms: Expected to find element: `#tab4 .tabb`, but never found it.
+      at Context.eval (webpack://cypress/./cypress/e2e/TVOLearn_spec.cy.js:129:9)
+
+
+
+[mochawesome] Report JSON saved to /Users/saiaparnamutyala/Downloads/TVOcypress/cypress/reports/.jsons/mochawesome.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        6                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      5                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  5                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 8 seconds                                                              │
+  │ Spec Ran:     TVOLearn_spec.cy.js                                                              │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /Users/saiaparnamutyala/Downloads/TVOcypress/cypress/screenshots/TVOLearn_spec.c     (1280x633)
+     y.js/TVOLearn Website Functionality -- Grade-1 Mathematics page should display t               
+     he Number tab and check its links (failed).png                                                 
+  -  /Users/saiaparnamutyala/Downloads/TVOcypress/cypress/screenshots/TVOLearn_spec.c     (1280x633)
+     y.js/TVOLearn Website Functionality -- Grade-1 Mathematics page should display t               
+     he Algebra tab and check its links (failed).png                                                
+  -  /Users/saiaparnamutyala/Downloads/TVOcypress/cypress/screenshots/TVOLearn_spec.c     (1280x633)
+     y.js/TVOLearn Website Functionality -- Grade-1 Mathematics page should display t               
+     he Data tab and check its links (failed).png                                                   
+  -  /Users/saiaparnamutyala/Downloads/TVOcypress/cypress/screenshots/TVOLearn_spec.c     (1280x633)
+     y.js/TVOLearn Website Functionality -- Grade-1 Mathematics page should display t               
+     he Spatial Sense tab and check its links (failed).png                                          
+  -  /Users/saiaparnamutyala/Downloads/TVOcypress/cypress/screenshots/TVOLearn_spec.c     (1280x633)
+     y.js/TVOLearn Website Functionality -- Grade-1 Mathematics page should display t               
+     he Financial Literacy tab and check its links (failed).png                                     
+
+
+  (Video)
+
+  -  Started compressing: Compressing to 32 CRF                                                     
+  -  Finished compressing: 2 seconds                                                 
+
+  -  Video output: /Users/saiaparnamutyala/Downloads/TVOcypress/cypress/videos/TVOLearn_spec.cy.js.mp4
+
+Start generate report process
+Read and merge jsons from "/Users/saiaparnamutyala/Downloads/TVOcypress/cypress/reports/.jsons"
+Copy media folder from "/Users/saiaparnamutyala/Downloads/TVOcypress/cypress/videos" to "/Users/saiaparnamutyala/Downloads/TVOcypress/cypress/reports/videos"
+Enhance report
+Create HTML report
+HTML report successfully created!
+/Users/saiaparnamutyala/Downloads/TVOcypress/cypress/reports/index_002.html
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✖  TVOLearn_spec.cy.js                      01:08        6        1        5        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 1 failed (100%)                     01:08        6        1        5        -        -  
+

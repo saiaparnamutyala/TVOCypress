@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.9.0",
+    "cypress": "^13.10.0",
     "cypress-failed-log": "^2.10.0",
     "cypress-mochawesome-reporter": "^3.8.2",
     "mochawesome": "^7.1.3",
